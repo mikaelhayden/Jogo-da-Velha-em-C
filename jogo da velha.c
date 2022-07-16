@@ -15,7 +15,7 @@ void tabuleiro2(char tab[3][3])
 	printf("\t\t %c   : %c   : %c\n",tab[2][0], tab[2][1], tab[2][2]);
 }
 
-int campeao (char tabuleiro[3][3])
+int campeao (char tabuleiro[3][3])	//função para achar o campeão
 {
 	int jogadas;
 	//Definindo um ganhador X
